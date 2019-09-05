@@ -83,6 +83,7 @@ public class LonginController {
             if(flag){
                 return "1";
             }
+            return "0";
         } catch (Exception e) {
             e.printStackTrace();
             return "0";
