@@ -17,5 +17,6 @@ public class LonginController {
     @ResponseBody
     public void login(String name,String password,int age,String sex){
         loginService.insertUser(name,password,age,sex);
+        System.out.println("1111");
     }
 }
