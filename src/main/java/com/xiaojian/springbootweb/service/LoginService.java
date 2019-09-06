@@ -9,7 +9,8 @@ public interface LoginService {
 
     public Map query(String username) throws Exception;
 
-    boolean updateUserByName(String username, int age,String sex)throws Exception;
+    public boolean updateUserByName(String username, int age,String sex)throws Exception;
 
-    boolean  deleteUserByName(String username)throws Exception;
+    public boolean  deleteUserByName(String username)throws Exception;
+
 }
