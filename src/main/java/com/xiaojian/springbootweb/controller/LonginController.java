@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 用户登录
+ */
 @Controller
 public class LonginController {
     //登录业务层
@@ -20,10 +23,10 @@ public class LonginController {
      * 登录页面
      * @return
      */
-    @RequestMapping("/loginView")
+   /* @RequestMapping("/loginView")
     public String loginView(){
         return "/page/login";
-    }
+    }*/
 
     /**
      * 登录
@@ -31,7 +34,7 @@ public class LonginController {
      * @param password 密码
      * @return
      */
-    @RequestMapping("login")
+ /*   @RequestMapping("login")
     public String login(String name,String password){
         try {
             //通过name查询数据库获取密码
@@ -46,9 +49,10 @@ public class LonginController {
             e.printStackTrace();
             return null;
         }
-    }
+    }*/
+
     /**
-     * 添加数据s
+     * 添加数据
      * @param name 用户名
      * @param password 用户密码
      * @param age 年龄
